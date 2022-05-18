@@ -1,0 +1,233 @@
+@import url((https: //fonts.google.com/specimen/Rubik));
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:hsl(226, 43%, 10%);
+    font-family: Rubik;
+    font-size: 18px;
+}
+/*-----media query----- */
+@media (max-width:960px){
+
+}
+
+.container{
+    max-width:960px;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    grid-auto-rows: 200px;
+}
+
+#item_1_details_profile{
+    width: 70px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 50px;
+}
+#item_1_details{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+h5{
+    margin-top: -20px;
+    color: white;
+    font-weight: 100;
+}
+
+#item_1_name{
+    margin-top: 1px;
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+}
+#rep_for{
+    margin-top: 2px;
+    margin-right: 70px;
+    font-size: 40px;
+    font-weight: 400px;
+}
+.item_2_top{
+    background-color: hsl(15, 100%, 70%);
+    border-radius: 9px;
+}
+.item_2_top img{
+    margin-top: 1px;
+    margin-left:120px;
+    z-index: 1;
+}
+
+#card_title{
+    padding-left: 14px;
+    padding-top: 14px;
+    color: white;
+}
+
+#card_hours{
+    font-size: 40px;
+    font-weight: 500px;
+    color: white;
+    padding-left: 14px;
+    padding-top: 20px;
+}
+
+#card_comment{
+    color: white;
+    font-size: 12px;
+    padding-left: 14px;
+    padding-top: 25px;
+}
+
+/*------play---------*/
+.item_3_top {
+    background-color: hsl(195, 74%, 62%);
+    border-radius: 9px;
+
+}
+.item_3_top img {
+    margin-top: 1px;
+    margin-left: 120px;
+}
+/*------study---------*/
+.item_4_top {
+    background-color: hsl(348, 100%, 68%);
+    border-radius: 9px;
+}
+.item_4_top img {
+    margin-top: 1px;
+    margin-left: 120px;
+}
+/* item 5 daily, monthly, weekly*/
+.item_5_bottom{
+ background-color: hsl(235, 46%, 20%);
+ border-radius: 9px;
+}
+#item_5_bottom_frequency{
+    padding-top: 67px;
+    padding-left: 30px;
+    color:hsl(235, 45%, 61%)
+}
+#item_5_bottom_frequency .item_daily{
+    margin-top: -50px;
+    margin-bottom: 26px;
+}
+
+ #item_5_bottom_frequency .item_weekly {
+    color: white;
+     margin-bottom: 26px;
+     font-weight: 300px;
+ }
+
+/*------exercise card---------*/
+.item_6_top {
+    background-color: hsl(145, 58%, 55%);
+    border-radius: 9px;
+}
+.item_6_top img {
+    margin-top: 1px;
+    margin-left: 120px;
+}
+/*------social---------*/
+.item_7_top {
+    background-color: hsl(264, 64%, 52%);
+    border-radius: 9px;
+}
+.item_7_top img {
+    margin-top: 1px;
+    margin-left: 120px;
+}
+/*----------self-care------*/
+.item_8_top {
+    background-color: hsl(43, 84%, 65%);
+    border-radius: 9px;
+}
+.item_8_top img {
+    margin-top: 1px;
+    margin-left: 120px;
+}
+
+/*------items_1 styling---------*/
+.item_1{
+    background-color: hsl(246, 80%, 60%);
+    height: 310px;
+    border-radius: 9px;
+}
+.item_1_bottom {
+    background-color: hsl(235, 46%, 20%);
+    height: 160px;
+    border-radius: 9px;
+    margin-top: -50px;
+}
+img{
+    padding: 2px;
+}
+
+h3{
+    margin-left: 30px;
+    margin-top: 50px;
+    padding-top: 2rem;
+}
+
+.item_3_bottom{
+    background-color: hsl(235, 46%, 20%);
+    height: 165px;
+    border-radius: 9px;
+    margin-top: -50px;
+    z-index: 2;
+}
+
+.item_4_bottom {
+    background-color: hsl(235, 46%, 20%);
+    height: 160px;
+    border-radius: 9px;
+    margin-top: -50px;
+}
+
+.item_6_bottom {
+    background-color: hsl(235, 46%, 20%);
+    height: 165px;
+    border-radius: 9px;
+    margin-top: -30px;
+}
+
+.item_7_bottom {
+    background-color: hsl(235, 46%, 20%);
+    height: 165px;
+    border-radius: 9px;
+    margin-top: -72px;
+}
+
+.item_8_bottom {
+    background-color: hsl(235, 46%, 20%);
+    height: 165px;
+    border-radius: 9px;
+    margin-top: -42px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
